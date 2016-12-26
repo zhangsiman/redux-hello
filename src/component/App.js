@@ -1,6 +1,7 @@
 import React, { PropTypes } from 'react';
 import {Link} from 'react-router';
-import Header from './Header'
+import Header from './Header';
+import Postbody from './Postbody'
 
 
 class App extends React.Component {
@@ -8,6 +9,7 @@ class App extends React.Component {
     return(
       <div className='box'>
         <Header />
+        <Postbody/>
       </div>
     )
   }
